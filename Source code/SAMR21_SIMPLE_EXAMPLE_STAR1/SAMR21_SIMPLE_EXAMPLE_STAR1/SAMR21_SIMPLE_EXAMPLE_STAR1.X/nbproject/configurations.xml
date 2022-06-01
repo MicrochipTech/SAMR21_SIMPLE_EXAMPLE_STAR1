@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="ASF" displayName="ASF" projectFiles="true">
+          <logicalFolder name="common" displayName="common" projectFiles="true">
+            <logicalFolder name="boards" displayName="boards" projectFiles="true">
+              <itemPath>../src/ASF/common/boards/board.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="services" displayName="services" projectFiles="true">
+              <logicalFolder name="serial" displayName="serial" projectFiles="true">
+                <logicalFolder name="sam0_usart" displayName="sam0_usart" projectFiles="true">
+                  <itemPath>../src/ASF/common/services/serial/sam0_usart/usart_serial.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common/services/serial/serial.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="interrupt" displayName="interrupt" projectFiles="true">
+                <itemPath>../src/ASF/common/utils/interrupt/interrupt_sam_nvic.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/ASF/common/utils/interrupt.h</itemPath>
+              <itemPath>../src/ASF/common/utils/parts.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="common2" displayName="common2" projectFiles="true">
+            <logicalFolder name="components" displayName="components" projectFiles="true">
+              <logicalFolder name="display" displayName="display" projectFiles="true">
+                <logicalFolder name="ssd1306" displayName="ssd1306" projectFiles="true">
+                  <itemPath>../src/ASF/common2/components/display/ssd1306/ssd1306.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="services" displayName="services" projectFiles="true">
+              <logicalFolder name="delay" displayName="delay" projectFiles="true">
+                <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+                  <itemPath>../src/ASF/common2/services/delay/sam0/systick_counter.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common2/services/delay/delay.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="gfx_mono" displayName="gfx_mono" projectFiles="true">
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono.h</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_generic.h</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_ug_2832hsweg04.h</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_spinctrl.h</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_framebuffer.h</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/sysfont.h</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_text.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+            <logicalFolder name="boards" displayName="boards" projectFiles="true">
+              <logicalFolder name="samr21_xplained_pro"
+                             displayName="samr21_xplained_pro"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam0/boards/samr21_xplained_pro/samr21_xplained_pro.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+              <logicalFolder name="extint" displayName="extint" projectFiles="true">
+                <itemPath>../src/ASF/sam0/drivers/extint/extint.h</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/extint/extint_callback.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
+                <logicalFolder name="quick_start_basic"
+                               displayName="quick_start_basic"
+                               projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/nvm/quick_start_basic/qs_nvm_basic.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/nvm/nvm.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="port" displayName="port" projectFiles="true">
+                <logicalFolder name="quick_start" displayName="quick_start" projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/port/quick_start/qs_port_basic.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/port/port.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
+                <itemPath>../src/ASF/sam0/drivers/rtc/rtc_tamper.h</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/rtc/rtc_count.h</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/rtc/rtc_count_interrupt.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+                <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
+                  <logicalFolder name="quick_start_master"
+                                 displayName="quick_start_master"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/i2c/quick_start_master/qs_i2c_master_basic_use.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="quick_start_master_dma"
+                                 displayName="quick_start_master_dma"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/i2c/quick_start_master_dma/qs_i2c_master_dma.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/sam0/drivers/sercom/i2c/i2c_common.h</itemPath>
+                  <itemPath>../src/ASF/sam0/drivers/sercom/i2c/i2c_master.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="spi" displayName="spi" projectFiles="true">
+                  <logicalFolder name="quick_start_dma"
+                                 displayName="quick_start_dma"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/spi/quick_start_dma/qs_spi_dma_use.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="quick_start_master"
+                                 displayName="quick_start_master"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/spi/quick_start_master/qs_spi_master_basic.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="quick_start_slave"
+                                 displayName="quick_start_slave"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/spi/quick_start_slave/qs_spi_slave_basic.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/sam0/drivers/sercom/spi/spi.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                  <logicalFolder name="quick_start" displayName="quick_start" projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/usart/quick_start/qs_usart_basic_use.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="quick_start_callback"
+                                 displayName="quick_start_callback"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/usart/quick_start_callback/qs_usart_callback.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="quick_start_dma"
+                                 displayName="quick_start_dma"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/usart/quick_start_dma/qs_usart_dma_use.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="quick_start_lin"
+                                 displayName="quick_start_lin"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/usart/quick_start_lin/qs_lin.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/sam0/drivers/sercom/usart/usart_interrupt.h</itemPath>
+                  <itemPath>../src/ASF/sam0/drivers/sercom/usart/usart.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/sercom/sercom_interrupt.h</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/sercom/sercom.h</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/sercom/sercom_pinout.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="system" displayName="system" projectFiles="true">
+                <logicalFolder name="clock" displayName="clock" projectFiles="true">
+                  <logicalFolder name="clock_samd21_r21_da_ha1"
+                                 displayName="clock_samd21_r21_da_ha1"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_config_check.h</itemPath>
+                    <itemPath>../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_feature.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/sam0/drivers/system/clock/clock.h</itemPath>
+                  <itemPath>../src/ASF/sam0/drivers/system/clock/gclk.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="interrupt" displayName="interrupt" projectFiles="true">
+                  <logicalFolder name="system_interrupt_samr21"
+                                 displayName="system_interrupt_samr21"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21/system_interrupt_features.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/sam0/drivers/system/interrupt/system_interrupt.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="pinmux" displayName="pinmux" projectFiles="true">
+                  <logicalFolder name="quick_start" displayName="quick_start" projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/system/pinmux/quick_start/qs_pinmux_basic.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/sam0/drivers/system/pinmux/pinmux.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="power" displayName="power" projectFiles="true">
+                  <logicalFolder name="power_sam_d_r_h"
+                                 displayName="power_sam_d_r_h"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/system/power/power_sam_d_r_h/power.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="reset" displayName="reset" projectFiles="true">
+                  <logicalFolder name="reset_sam_d_r_h"
+                                 displayName="reset_sam_d_r_h"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h/reset.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/system/system.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="tc" displayName="tc" projectFiles="true">
+                <itemPath>../src/ASF/sam0/drivers/tc/tc_interrupt.h</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/tc/tc.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="cmsis" displayName="cmsis" projectFiles="true">
+                <logicalFolder name="samr21" displayName="samr21" projectFiles="true">
+                  <logicalFolder name="include" displayName="include" projectFiles="true">
+                    <logicalFolder name="component" displayName="component" projectFiles="true">
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/pm.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/mtb.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/adc.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/evsys.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/hmatrixb.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/wdt.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/rfctrl.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/tc.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/gclk.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/nvmctrl.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/sercom.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/sysctrl.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/port.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/usb.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/eic.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/dmac.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/dsu.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/pac.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/rtc.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/ac.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/component/tcc.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="instance" displayName="instance" projectFiles="true">
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/dmac.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/rfctrl.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom5.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom3.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc5.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom1.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/rtc.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/ac.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/dsu.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sbmatrix.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/mtb.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc3.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/gclk.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/usb.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc0.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc1.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc2.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/evsys.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom4.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom2.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/eic.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc4.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom0.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/sysctrl.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac0.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac1.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac2.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/nvmctrl.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/port.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/adc.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/pm.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/instance/wdt.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="pio" displayName="pio" projectFiles="true">
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g18a.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g16a.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g17a.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e18a.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e19a.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e16a.h</itemPath>
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e17a.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21g18a.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21g16a.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21g17a.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21e18a.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21e19a.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21e16a.h</itemPath>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/include/samr21e17a.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="source" displayName="source" projectFiles="true">
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/source/system_samr21.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="header_files"
+                             displayName="header_files"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam0/utils/header_files/io.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="preprocessor"
+                             displayName="preprocessor"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam0/utils/preprocessor/mrecursion.h</itemPath>
+                <itemPath>../src/ASF/sam0/utils/preprocessor/tpaste.h</itemPath>
+                <itemPath>../src/ASF/sam0/utils/preprocessor/mrepeat.h</itemPath>
+                <itemPath>../src/ASF/sam0/utils/preprocessor/stringz.h</itemPath>
+                <itemPath>../src/ASF/sam0/utils/preprocessor/preprocessor.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+                <logicalFolder name="stdio_serial"
+                               displayName="stdio_serial"
+                               projectFiles="true">
+                  <itemPath>../src/ASF/sam0/utils/stdio/stdio_serial/stdio_serial.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <itemPath>../src/ASF/sam0/utils/status_codes.h</itemPath>
+              <itemPath>../src/ASF/sam0/utils/compiler.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="thirdparty" displayName="thirdparty" projectFiles="true">
+            <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/arm_math.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/core_cm0plus.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="wireless" displayName="wireless" projectFiles="true">
+              <logicalFolder name="addons" displayName="addons" projectFiles="true">
+                <logicalFolder name="sio2host" displayName="sio2host" projectFiles="true">
+                  <logicalFolder name="uart" displayName="uart" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/addons/sio2host/uart/sio2host.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="miwi" displayName="miwi" projectFiles="true">
+                <logicalFolder name="apps" displayName="apps" projectFiles="true">
+                  <logicalFolder name="simple_example_star"
+                                 displayName="simple_example_star"
+                                 projectFiles="true">
+                    <logicalFolder name="samr21_xplained_pro"
+                                   displayName="samr21_xplained_pro"
+                                   projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro/conf_rtc.h</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="include" displayName="include" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/wireless/miwi/include/miwi_api.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="services" displayName="services" projectFiles="true">
+                  <logicalFolder name="lcd" displayName="lcd" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/services/lcd/lcd.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="pds" displayName="pds" projectFiles="true">
+                    <logicalFolder name="inc" displayName="inc" projectFiles="true">
+                      <logicalFolder name="nv" displayName="nv" projectFiles="true">
+                        <logicalFolder name="External" displayName="External" projectFiles="true">
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv_Init.h</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv_Bindings.h</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv.h</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv.h</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv_Bindings.h</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv_Init.h</itemPath>
+                        </logicalFolder>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Internal.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Bindings.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Init.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv_Bindings.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv_Init.h</itemPath>
+                      </logicalFolder>
+                      <logicalFolder name="wl" displayName="wl" projectFiles="true">
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTaskManager.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTypesConverter.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTypes.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsBindings.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsMemIds.h</itemPath>
+                      </logicalFolder>
+                      <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/pdsDataServer.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/inc/pdsMemIds.h</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                  <logicalFolder name="sleep_mgr" displayName="sleep_mgr" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr/sleep_mgr.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="source" displayName="source" projectFiles="true">
+                  <logicalFolder name="mimac" displayName="mimac" projectFiles="true">
+                    <logicalFolder name="phy" displayName="phy" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/wireless/miwi/source/mimac/phy/phy.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/mimac/mimac_at86rf.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="miwi_p2p_star"
+                                 displayName="miwi_p2p_star"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_p2p_star.h</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_nvm.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="sys" displayName="sys" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/sys/mimem.h</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/sys/sysTimer.h</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/sys/miqueue.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="services" displayName="services" projectFiles="true">
+                <logicalFolder name="common_hw_timer"
+                               displayName="common_hw_timer"
+                               projectFiles="true">
+                  <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/hw_timer.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/thirdparty/wireless/services/common_hw_timer/common_hw_timer.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="edbg_eui" displayName="edbg_eui" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/wireless/services/edbg_eui/edbg-eui.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/wireless/services/nvm/common_nvm.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="sal" displayName="sal" projectFiles="true">
+                  <logicalFolder name="inc" displayName="inc" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/services/sal/inc/sal_types.h</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/services/sal/inc/sal_generic.h</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/services/sal/inc/sal.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="trx_access" displayName="trx_access" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/wireless/services/trx_access/trx_access.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="config" displayName="config" projectFiles="true">
+          <itemPath>../src/config/conf_sysfont.h</itemPath>
+          <itemPath>../src/config/conf_clocks.h</itemPath>
+          <itemPath>../src/config/conf_spi.h</itemPath>
+          <itemPath>../src/config/conf_ssd1306.h</itemPath>
+          <itemPath>../src/config/conf_board.h</itemPath>
+          <itemPath>../src/config/conf_spinctrl.h</itemPath>
+          <itemPath>../src/config/conf_trx_access.h</itemPath>
+          <itemPath>../src/config/conf_sio2host.h</itemPath>
+          <itemPath>../src/config/conf_hw_timer.h</itemPath>
+          <itemPath>../src/config/conf_extint.h</itemPath>
+          <itemPath>../src/config/conf_nvm.h</itemPath>
+          <itemPath>../src/config/miwi_config_p2p.h</itemPath>
+          <itemPath>../src/config/miwi_config.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/asf.h</itemPath>
+        <itemPath>../src/task.h</itemPath>
+        <itemPath>../src/star_demo.h</itemPath>
+        <itemPath>../src/demo_output.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="ASF" displayName="ASF" projectFiles="true">
+          <logicalFolder name="thirdparty" displayName="thirdparty" projectFiles="true">
+            <logicalFolder name="wireless" displayName="wireless" projectFiles="true">
+              <logicalFolder name="miwi" displayName="miwi" projectFiles="true">
+                <logicalFolder name="services" displayName="services" projectFiles="true">
+                  <logicalFolder name="pds" displayName="pds" projectFiles="true">
+                    <logicalFolder name="src" displayName="src" projectFiles="true">
+                      <logicalFolder name="wl" displayName="wl" projectFiles="true">
+                        <logicalFolder name="linkerscripts"
+                                       displayName="linkerscripts"
+                                       projectFiles="true">
+                          <logicalFolder name="samr21" displayName="samr21" projectFiles="true">
+                            <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+                              <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/linkerscripts/samr21/gcc/samr21g18a_flash.ld</itemPath>
+                            </logicalFolder>
+                          </logicalFolder>
+                        </logicalFolder>
+                      </logicalFolder>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="ASF" displayName="ASF" projectFiles="true">
+          <logicalFolder name="common" displayName="common" projectFiles="true">
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="interrupt" displayName="interrupt" projectFiles="true">
+                <itemPath>../src/ASF/common/utils/interrupt/interrupt_sam_nvic.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="common2" displayName="common2" projectFiles="true">
+            <logicalFolder name="components" displayName="components" projectFiles="true">
+              <logicalFolder name="display" displayName="display" projectFiles="true">
+                <logicalFolder name="ssd1306" displayName="ssd1306" projectFiles="true">
+                  <itemPath>../src/ASF/common2/components/display/ssd1306/ssd1306.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="services" displayName="services" projectFiles="true">
+              <logicalFolder name="delay" displayName="delay" projectFiles="true">
+                <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+                  <itemPath>../src/ASF/common2/services/delay/sam0/systick_counter.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="gfx_mono" displayName="gfx_mono" projectFiles="true">
+                <logicalFolder name="docsrc" displayName="docsrc" projectFiles="true">
+                  <itemPath>../src/ASF/common2/services/gfx_mono/docsrc/gfx_mono_overview.png</itemPath>
+                </logicalFolder>
+                <logicalFolder name="tools" displayName="tools" projectFiles="true">
+                  <itemPath>../src/ASF/common2/services/gfx_mono/tools/bitmap.py</itemPath>
+                  <itemPath>../src/ASF/common2/services/gfx_mono/tools/dump_display_over_serial.py</itemPath>
+                  <itemPath>../src/ASF/common2/services/gfx_mono/tools/readme.txt</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_framebuffer.c</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_generic.c</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_spinctrl.c</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_text.c</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/gfx_mono_ug_2832hsweg04.c</itemPath>
+                <itemPath>../src/ASF/common2/services/gfx_mono/sysfont.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+            <logicalFolder name="boards" displayName="boards" projectFiles="true">
+              <logicalFolder name="samr21_xplained_pro"
+                             displayName="samr21_xplained_pro"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam0/boards/samr21_xplained_pro/board_init.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+              <logicalFolder name="extint" displayName="extint" projectFiles="true">
+                <logicalFolder name="extint_sam_d_r_h"
+                               displayName="extint_sam_d_r_h"
+                               projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/extint/extint_sam_d_r_h/extint.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/extint/extint_callback.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
+                <itemPath>../src/ASF/sam0/drivers/nvm/nvm.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="port" displayName="port" projectFiles="true">
+                <itemPath>../src/ASF/sam0/drivers/port/port.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
+                <logicalFolder name="rtc_sam_d_r_h"
+                               displayName="rtc_sam_d_r_h"
+                               projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/rtc/rtc_sam_d_r_h/rtc_count.c</itemPath>
+                  <itemPath>../src/ASF/sam0/drivers/rtc/rtc_sam_d_r_h/rtc_count_interrupt.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+                <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
+                  <logicalFolder name="i2c_sam0" displayName="i2c_sam0" projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/sercom/i2c/i2c_sam0/i2c_master.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="spi" displayName="spi" projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/sercom/spi/spi.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/sercom/usart/usart.c</itemPath>
+                  <itemPath>../src/ASF/sam0/drivers/sercom/usart/usart_interrupt.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/sercom/sercom.c</itemPath>
+                <itemPath>../src/ASF/sam0/drivers/sercom/sercom_interrupt.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="system" displayName="system" projectFiles="true">
+                <logicalFolder name="clock" displayName="clock" projectFiles="true">
+                  <logicalFolder name="clock_samd21_r21_da_ha1"
+                                 displayName="clock_samd21_r21_da_ha1"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock.c</itemPath>
+                    <itemPath>../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/gclk.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="interrupt" displayName="interrupt" projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/system/interrupt/system_interrupt.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="pinmux" displayName="pinmux" projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/system/pinmux/pinmux.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/system/system.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="tc" displayName="tc" projectFiles="true">
+                <logicalFolder name="tc_sam_d_r_h"
+                               displayName="tc_sam_d_r_h"
+                               projectFiles="true">
+                  <itemPath>../src/ASF/sam0/drivers/tc/tc_sam_d_r_h/tc.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam0/drivers/tc/tc_interrupt.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="cmsis" displayName="cmsis" projectFiles="true">
+                <logicalFolder name="samr21" displayName="samr21" projectFiles="true">
+                  <logicalFolder name="source" displayName="source" projectFiles="true">
+                    <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+                      <itemPath>../src/ASF/sam0/utils/cmsis/samr21/source/gcc/startup_samr21.c</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/sam0/utils/cmsis/samr21/source/system_samr21.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="make" displayName="make" projectFiles="true">
+                <itemPath>../src/ASF/sam0/utils/make/Makefile.sam.in</itemPath>
+              </logicalFolder>
+              <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+                <itemPath>../src/ASF/sam0/utils/stdio/read.c</itemPath>
+                <itemPath>../src/ASF/sam0/utils/stdio/write.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="syscalls" displayName="syscalls" projectFiles="true">
+                <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+                  <itemPath>../src/ASF/sam0/utils/syscalls/gcc/syscalls.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="thirdparty" displayName="thirdparty" projectFiles="true">
+            <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+              <logicalFolder name="Lib" displayName="Lib" projectFiles="true">
+                <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM0l_math.a</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Lib/license.txt</itemPath>
+              </logicalFolder>
+              <itemPath>../src/ASF/thirdparty/CMSIS/ATMEL-disclaimer.txt</itemPath>
+              <itemPath>../src/ASF/thirdparty/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf</itemPath>
+              <itemPath>../src/ASF/thirdparty/CMSIS/README.txt</itemPath>
+            </logicalFolder>
+            <logicalFolder name="wireless" displayName="wireless" projectFiles="true">
+              <logicalFolder name="addons" displayName="addons" projectFiles="true">
+                <logicalFolder name="sio2host" displayName="sio2host" projectFiles="true">
+                  <logicalFolder name="uart" displayName="uart" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/addons/sio2host/uart/sio2host.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="miwi" displayName="miwi" projectFiles="true">
+                <logicalFolder name="services" displayName="services" projectFiles="true">
+                  <logicalFolder name="lcd" displayName="lcd" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/services/lcd/lcd.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="pds" displayName="pds" projectFiles="true">
+                    <logicalFolder name="src" displayName="src" projectFiles="true">
+                      <logicalFolder name="nopds" displayName="nopds" projectFiles="true">
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/nopds/fakePds.c</itemPath>
+                      </logicalFolder>
+                      <logicalFolder name="nv" displayName="nv" projectFiles="true">
+                        <logicalFolder name="External" displayName="External" projectFiles="true">
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/nv/External/D_XNv-SamR21.c</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/nv/External/S_Nv-External.c</itemPath>
+                          <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/nv/External/S_XNv.c</itemPath>
+                        </logicalFolder>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/nv/D_Nv.c</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/nv/S_Nv-SamR21.c</itemPath>
+                      </logicalFolder>
+                      <logicalFolder name="wl" displayName="wl" projectFiles="true">
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/wlPdsDataServer.c</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/wlPdsInit.c</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/wlPdsTaskManager.c</itemPath>
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/wlPdsTypesConverter.c</itemPath>
+                      </logicalFolder>
+                    </logicalFolder>
+                  </logicalFolder>
+                  <logicalFolder name="sleep_mgr" displayName="sleep_mgr" projectFiles="true">
+                    <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr/sam0/sleep_mgr.c</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="source" displayName="source" projectFiles="true">
+                  <logicalFolder name="mimac" displayName="mimac" projectFiles="true">
+                    <logicalFolder name="phy" displayName="phy" projectFiles="true">
+                      <logicalFolder name="at86rf233" displayName="at86rf233" projectFiles="true">
+                        <itemPath>../src/ASF/thirdparty/wireless/miwi/source/mimac/phy/at86rf233/phy.c</itemPath>
+                      </logicalFolder>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/mimac/mimac_at86rf.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="miwi_p2p_star"
+                                 displayName="miwi_p2p_star"
+                                 projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_p2p_pds.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_p2p_star.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="sys" displayName="sys" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/sys/mimem.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/sys/miqueue.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/wireless/miwi/source/sys/sysTimer.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="services" displayName="services" projectFiles="true">
+                <logicalFolder name="common_hw_timer"
+                               displayName="common_hw_timer"
+                               projectFiles="true">
+                  <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+                    <logicalFolder name="lib" displayName="lib" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/lib/libsam0_lib_hw_timer.a</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/hw_timer.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="edbg_eui" displayName="edbg_eui" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/wireless/services/edbg_eui/edbg-eui.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
+                  <logicalFolder name="sam0" displayName="sam0" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/wireless/services/nvm/sam0/sam_nvm.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="sal" displayName="sal" projectFiles="true">
+                  <logicalFolder name="at86rf2xx" displayName="at86rf2xx" projectFiles="true">
+                    <logicalFolder name="src" displayName="src" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/wireless/services/sal/at86rf2xx/src/sal.c</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="trx_access" displayName="trx_access" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/wireless/services/trx_access/trx_access.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../src/demo_output.c</itemPath>
+        <itemPath>../src/main.c</itemPath>
+        <itemPath>../src/star_demo.c</itemPath>
+        <itemPath>../src/task.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAMR21G18A</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>noID</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>6.3.1</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAMR21_DFP" vendor="Microchip" version="2.0.46"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../src/ASF/common/boards/board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/sam0_usart/usart_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt/interrupt_sam_nvic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/parts.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common2/components/display/ssd1306/ssd1306.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/delay/delay.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/delay/sam0/systick_counter.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/docsrc/gfx_mono_overview.png"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_framebuffer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_generic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_spinctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_text.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_ug_2832hsweg04.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/sysfont.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/tools/bitmap.py"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/tools/dump_display_over_serial.py"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/tools/readme.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/boards/samr21_xplained_pro/samr21_xplained_pro.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/extint/extint.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/extint/extint_callback.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/nvm/nvm.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/nvm/quick_start_basic/qs_nvm_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/port/port.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/port/quick_start/qs_port_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/rtc/rtc_count.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/rtc/rtc_count_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/rtc/rtc_tamper.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/i2c_common.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/i2c_master.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/quick_start_master/qs_i2c_master_basic_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/quick_start_master_dma/qs_i2c_master_dma.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/sercom.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/sercom_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/sercom_pinout.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/quick_start_dma/qs_spi_dma_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/quick_start_master/qs_spi_master_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/quick_start_slave/qs_spi_slave_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/spi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start/qs_usart_basic_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start_callback/qs_usart_callback.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start_dma/qs_usart_dma_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start_lin/qs_lin.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/usart.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/usart_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/clock.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_config_check.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_feature.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/gclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/interrupt/system_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21/system_interrupt_features.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/pinmux/pinmux.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/pinmux/quick_start/qs_pinmux_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/power/power_sam_d_r_h/power.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h/reset.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/system.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/tc/tc.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/tc/tc_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/ac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/adc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/dmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/dsu.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/eic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/evsys.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/gclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/hmatrixb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/mtb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/nvmctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/pac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/pm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/port.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/rfctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/sercom.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/sysctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/tc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/tcc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/usb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/ac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/adc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/dmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/dsu.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/eic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/evsys.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/gclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/mtb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/nvmctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/port.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/rfctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sbmatrix.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom4.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom5.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sysctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc4.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc5.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/usb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e19a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e19a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21g16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21g17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21g18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/source/system_samr21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/compiler.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/header_files/io.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/make/Makefile.sam.in"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/mrecursion.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/mrepeat.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/preprocessor.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/stringz.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/tpaste.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/status_codes.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/stdio/stdio_serial/stdio_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/ATMEL-disclaimer.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_math.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_version.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/core_cm0plus.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM0l_math.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/license.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/README.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/addons/sio2host/uart/sio2host.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro/conf_rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/include/miwi_api.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/lcd/lcd.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Internal.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/pdsDataServer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/pdsMemIds.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsBindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsMemIds.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTaskManager.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTypes.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTypesConverter.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/linkerscripts/samr21/gcc/samr21g18a_flash.ld"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr/sleep_mgr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/mimac/mimac_at86rf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/mimac/phy/phy.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_nvm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_p2p_star.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/sys/mimem.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/sys/miqueue.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/sys/sysTimer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/common_hw_timer/common_hw_timer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/hw_timer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/lib/libsam0_lib_hw_timer.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/edbg_eui/edbg-eui.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/nvm/common_nvm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/sal/inc/sal.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/sal/inc/sal_generic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/sal/inc/sal_types.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/trx_access/trx_access.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/asf.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_clocks.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_extint.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_hw_timer.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_nvm.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_sio2host.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_spi.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_spinctrl.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_ssd1306.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_sysfont.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_trx_access.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/miwi_config.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/miwi_config_p2p.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/demo_output.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/star_demo.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/task.h" ex="true" overriding="false">
+      </item>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src/ASF/sam0/drivers/sercom/i2c;../src/ASF/sam0/utils;../src/ASF/sam0/utils/header_files;../src/ASF/sam0/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/common/utils;../src/ASF/sam0/utils/cmsis/samr21/include;../src/ASF/sam0/utils/cmsis/samr21/source;../src/ASF/sam0/drivers/sercom;../src/ASF/sam0/drivers/system;../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1;../src/ASF/sam0/drivers/system/clock;../src/ASF/sam0/drivers/system/interrupt;../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21;../src/ASF/sam0/drivers/system/pinmux;../src/ASF/sam0/drivers/system/power;../src/ASF/sam0/drivers/system/power/power_sam_d_r_h;../src/ASF/sam0/drivers/system/reset;../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h;../src/ASF/thirdparty/wireless/services/edbg_eui;../src/ASF/common2/services/gfx_mono;../src/ASF/common2/components/display/ssd1306;../src/ASF/sam0/drivers/port;../src/ASF/sam0/drivers/sercom/spi;../src/ASF/common2/services/delay;../src/ASF/common2/services/delay/sam0;../src/ASF/sam0/boards;../src/ASF/sam0/boards/samr21_xplained_pro;../src/ASF/common/boards;../src/ASF/thirdparty/wireless/miwi/services/lcd;../src;../src/ASF/thirdparty/wireless/addons/sio2host/uart;../src/ASF/sam0/utils/stdio/stdio_serial;../src/ASF/common/services/serial;../src/ASF/sam0/drivers/sercom/usart;../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star;../src/ASF/thirdparty/wireless/miwi/include;../src/ASF/thirdparty/wireless/miwi/source/mimac;../src/ASF/thirdparty/wireless/miwi/source/mimac/phy;../src/ASF/thirdparty/wireless/miwi/source/sys;../src/ASF/thirdparty/wireless/services/trx_access;../src/ASF/sam0/drivers/extint;../src/ASF/sam0/drivers/tc;../src/ASF/thirdparty/wireless/services/common_hw_timer;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0;../src/ASF/thirdparty/wireless/services/sal/inc;../src/ASF/thirdparty/wireless/services/nvm;../src/ASF/sam0/drivers/nvm;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External;../src/ASF/thirdparty/wireless/miwi/services/pds/inc;../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr;../src/ASF/sam0/drivers/rtc;../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro;../src/config"/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src/ASF/sam0/drivers/sercom/i2c;../src/ASF/sam0/utils;../src/ASF/sam0/utils/header_files;../src/ASF/sam0/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/common/utils;../src/ASF/sam0/utils/cmsis/samr21/include;../src/ASF/sam0/utils/cmsis/samr21/source;../src/ASF/sam0/drivers/sercom;../src/ASF/sam0/drivers/system;../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1;../src/ASF/sam0/drivers/system/clock;../src/ASF/sam0/drivers/system/interrupt;../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21;../src/ASF/sam0/drivers/system/pinmux;../src/ASF/sam0/drivers/system/power;../src/ASF/sam0/drivers/system/power/power_sam_d_r_h;../src/ASF/sam0/drivers/system/reset;../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h;../src/ASF/thirdparty/wireless/services/edbg_eui;../src/ASF/common2/services/gfx_mono;../src/ASF/common2/components/display/ssd1306;../src/ASF/sam0/drivers/port;../src/ASF/sam0/drivers/sercom/spi;../src/ASF/common2/services/delay;../src/ASF/common2/services/delay/sam0;../src/ASF/sam0/boards;../src/ASF/sam0/boards/samr21_xplained_pro;../src/ASF/common/boards;../src/ASF/thirdparty/wireless/miwi/services/lcd;../src;../src/ASF/thirdparty/wireless/addons/sio2host/uart;../src/ASF/sam0/utils/stdio/stdio_serial;../src/ASF/common/services/serial;../src/ASF/sam0/drivers/sercom/usart;../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star;../src/ASF/thirdparty/wireless/miwi/include;../src/ASF/thirdparty/wireless/miwi/source/mimac;../src/ASF/thirdparty/wireless/miwi/source/mimac/phy;../src/ASF/thirdparty/wireless/miwi/source/sys;../src/ASF/thirdparty/wireless/services/trx_access;../src/ASF/sam0/drivers/extint;../src/ASF/sam0/drivers/tc;../src/ASF/thirdparty/wireless/services/common_hw_timer;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0;../src/ASF/thirdparty/wireless/services/sal/inc;../src/ASF/thirdparty/wireless/services/nvm;../src/ASF/sam0/drivers/nvm;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External;../src/ASF/thirdparty/wireless/miwi/services/pds/inc;../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr;../src/ASF/sam0/drivers/rtc;../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro;../src/config"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+        <appendMe value="-DARM_MATH_CM0PLUS=true -DBOARD=SAMR21_XPLAINED_PRO -DENABLE_NETWORK_FREEZER -DEXTINT_CALLBACK_MODE=true -DGFX_MONO_UG_2832HSWEG04=1 -DI2C_MASTER_CALLBACK_MODE=false -DPDS_ENABLE_WEAR_LEVELING -DPHY_AT86RF233 -DPROTOCOL_STAR -DRTC_COUNT_ASYNC=true -DSAL_TYPE=AT86RF2xx -DSPI_CALLBACK_MODE=false -DSYSTICK_MODE -DTC_ASYNC=true -DUSART_CALLBACK_MODE=true -D__SAMR21G18A__"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/ASF/sam0/drivers/sercom/i2c;../src/ASF/sam0/utils;../src/ASF/sam0/utils/header_files;../src/ASF/sam0/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/common/utils;../src/ASF/sam0/utils/cmsis/samr21/include;../src/ASF/sam0/utils/cmsis/samr21/source;../src/ASF/sam0/drivers/sercom;../src/ASF/sam0/drivers/system;../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1;../src/ASF/sam0/drivers/system/clock;../src/ASF/sam0/drivers/system/interrupt;../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21;../src/ASF/sam0/drivers/system/pinmux;../src/ASF/sam0/drivers/system/power;../src/ASF/sam0/drivers/system/power/power_sam_d_r_h;../src/ASF/sam0/drivers/system/reset;../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h;../src/ASF/thirdparty/wireless/services/edbg_eui;../src/ASF/common2/services/gfx_mono;../src/ASF/common2/components/display/ssd1306;../src/ASF/sam0/drivers/port;../src/ASF/sam0/drivers/sercom/spi;../src/ASF/common2/services/delay;../src/ASF/common2/services/delay/sam0;../src/ASF/sam0/boards;../src/ASF/sam0/boards/samr21_xplained_pro;../src/ASF/common/boards;../src/ASF/thirdparty/wireless/miwi/services/lcd;../src;../src/ASF/thirdparty/wireless/addons/sio2host/uart;../src/ASF/sam0/utils/stdio/stdio_serial;../src/ASF/common/services/serial;../src/ASF/sam0/drivers/sercom/usart;../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star;../src/ASF/thirdparty/wireless/miwi/include;../src/ASF/thirdparty/wireless/miwi/source/mimac;../src/ASF/thirdparty/wireless/miwi/source/mimac/phy;../src/ASF/thirdparty/wireless/miwi/source/sys;../src/ASF/thirdparty/wireless/services/trx_access;../src/ASF/sam0/drivers/extint;../src/ASF/sam0/drivers/tc;../src/ASF/thirdparty/wireless/services/common_hw_timer;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0;../src/ASF/thirdparty/wireless/services/sal/inc;../src/ASF/thirdparty/wireless/services/nvm;../src/ASF/sam0/drivers/nvm;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External;../src/ASF/thirdparty/wireless/miwi/services/pds/inc;../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr;../src/ASF/sam0/drivers/rtc;../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro;../src/config"/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-O3"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros"
+                  value="NDEBUG;PROTOCOL_STAR;GFX_MONO_UG_2832HSWEG04=1;ARM_MATH_CM0PLUS=true;RTC_COUNT_ASYNC=true;__SAMR21G18A__;PDS_ENABLE_WEAR_LEVELING;SYSTICK_MODE;I2C_MASTER_CALLBACK_MODE=false;SAL_TYPE=AT86RF2xx;TC_ASYNC=true;BOARD=SAMR21_XPLAINED_PRO;EXTINT_CALLBACK_MODE=true;PHY_AT86RF233;USART_CALLBACK_MODE=true;SPI_CALLBACK_MODE=false;ENABLE_NETWORK_FREEZER"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+        <appendMe value="-pipe -fno-strict-aliasing -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror-implicit-function-declaration -Wpointer-arith -std=gnu99 -ffunction-sections -fdata-sections -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return  -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Wlong-long -Wunreachable-code -Wcast-align --param max-inline-insns-single=500 -fdata-sections"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="true"/>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-include" value=""/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories"
+                  value="../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/lib"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries"
+                  value="libsam0_lib_hw_timer;libarm_cortexM0l_math;libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="true"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-Wl,--entry=Reset_Handler -Wl,--cref -mthumb -T../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/linkerscripts/samr21/gcc/samr21g18a_flash.ld"/>
+      </ARM-LD>
+    </conf>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAMR21G18A</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>noID</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>6.3.1</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAMR21_DFP" vendor="Microchip" version="2.0.46"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../src/ASF/common/boards/board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/sam0_usart/usart_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt/interrupt_sam_nvic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/parts.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common2/components/display/ssd1306/ssd1306.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/delay/delay.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/delay/sam0/systick_counter.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/docsrc/gfx_mono_overview.png"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_framebuffer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_generic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_spinctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_text.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/gfx_mono_ug_2832hsweg04.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/sysfont.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/tools/bitmap.py"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/tools/dump_display_over_serial.py"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common2/services/gfx_mono/tools/readme.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/boards/samr21_xplained_pro/samr21_xplained_pro.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/extint/extint.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/extint/extint_callback.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/nvm/nvm.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/nvm/quick_start_basic/qs_nvm_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/port/port.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/port/quick_start/qs_port_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/rtc/rtc_count.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/rtc/rtc_count_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/rtc/rtc_tamper.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/i2c_common.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/i2c_master.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/quick_start_master/qs_i2c_master_basic_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/i2c/quick_start_master_dma/qs_i2c_master_dma.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/sercom.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/sercom_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/sercom_pinout.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/quick_start_dma/qs_spi_dma_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/quick_start_master/qs_spi_master_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/quick_start_slave/qs_spi_slave_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/spi/spi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start/qs_usart_basic_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start_callback/qs_usart_callback.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start_dma/qs_usart_dma_use.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/quick_start_lin/qs_lin.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/usart.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/sercom/usart/usart_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/clock.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_config_check.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/clock_feature.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/clock/gclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/interrupt/system_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21/system_interrupt_features.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/pinmux/pinmux.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/pinmux/quick_start/qs_pinmux_basic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/power/power_sam_d_r_h/power.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h/reset.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/system/system.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/tc/tc.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/drivers/tc/tc_interrupt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/ac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/adc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/dmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/dsu.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/eic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/evsys.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/gclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/hmatrixb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/mtb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/nvmctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/pac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/pm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/port.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/rfctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/sercom.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/sysctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/tc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/tcc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/usb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/component/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/ac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/adc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/dmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/dsu.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/eic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/evsys.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/gclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/mtb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/nvmctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pac2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/pm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/port.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/rfctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sbmatrix.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom4.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sercom5.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/sysctrl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc4.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tc5.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/tcc2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/usb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/instance/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21e19a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/pio/samr21g18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21e19a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21g16a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21g17a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/include/samr21g18a.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/cmsis/samr21/source/system_samr21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/compiler.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/header_files/io.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/make/Makefile.sam.in"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/mrecursion.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/mrepeat.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/preprocessor.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/stringz.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/preprocessor/tpaste.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/status_codes.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam0/utils/stdio/stdio_serial/stdio_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/ATMEL-disclaimer.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_math.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_version.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/core_cm0plus.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM0l_math.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/license.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/README.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/addons/sio2host/uart/sio2host.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro/conf_rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/include/miwi_api.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/lcd/lcd.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/D_Nv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/D_XNv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External/S_XNv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Bindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/S_Nv_Internal.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/pdsDataServer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/pdsMemIds.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsBindings.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsMemIds.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTaskManager.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTypes.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl/wlPdsTypesConverter.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/linkerscripts/samr21/gcc/samr21g18a_flash.ld"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr/sleep_mgr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/mimac/mimac_at86rf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/mimac/phy/phy.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_nvm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star/miwi_p2p_star.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/sys/mimem.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/sys/miqueue.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/miwi/source/sys/sysTimer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/common_hw_timer/common_hw_timer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/hw_timer.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/lib/libsam0_lib_hw_timer.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/edbg_eui/edbg-eui.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/nvm/common_nvm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/sal/inc/sal.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/sal/inc/sal_generic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/sal/inc/sal_types.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/wireless/services/trx_access/trx_access.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/asf.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_clocks.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_extint.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_hw_timer.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_nvm.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_sio2host.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_spi.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_spinctrl.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_ssd1306.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_sysfont.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_trx_access.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/miwi_config.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/miwi_config_p2p.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/demo_output.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/star_demo.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/task.h" ex="true" overriding="false">
+      </item>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src/ASF/sam0/drivers/sercom/i2c;../src/ASF/sam0/utils;../src/ASF/sam0/utils/header_files;../src/ASF/sam0/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/common/utils;../src/ASF/sam0/utils/cmsis/samr21/include;../src/ASF/sam0/utils/cmsis/samr21/source;../src/ASF/sam0/drivers/sercom;../src/ASF/sam0/drivers/system;../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1;../src/ASF/sam0/drivers/system/clock;../src/ASF/sam0/drivers/system/interrupt;../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21;../src/ASF/sam0/drivers/system/pinmux;../src/ASF/sam0/drivers/system/power;../src/ASF/sam0/drivers/system/power/power_sam_d_r_h;../src/ASF/sam0/drivers/system/reset;../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h;../src/ASF/thirdparty/wireless/services/edbg_eui;../src/ASF/common2/services/gfx_mono;../src/ASF/common2/components/display/ssd1306;../src/ASF/sam0/drivers/port;../src/ASF/sam0/drivers/sercom/spi;../src/ASF/common2/services/delay;../src/ASF/common2/services/delay/sam0;../src/ASF/sam0/boards;../src/ASF/sam0/boards/samr21_xplained_pro;../src/ASF/common/boards;../src/ASF/thirdparty/wireless/miwi/services/lcd;../src;../src/ASF/thirdparty/wireless/addons/sio2host/uart;../src/ASF/sam0/utils/stdio/stdio_serial;../src/ASF/common/services/serial;../src/ASF/sam0/drivers/sercom/usart;../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star;../src/ASF/thirdparty/wireless/miwi/include;../src/ASF/thirdparty/wireless/miwi/source/mimac;../src/ASF/thirdparty/wireless/miwi/source/mimac/phy;../src/ASF/thirdparty/wireless/miwi/source/sys;../src/ASF/thirdparty/wireless/services/trx_access;../src/ASF/sam0/drivers/extint;../src/ASF/sam0/drivers/tc;../src/ASF/thirdparty/wireless/services/common_hw_timer;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0;../src/ASF/thirdparty/wireless/services/sal/inc;../src/ASF/thirdparty/wireless/services/nvm;../src/ASF/sam0/drivers/nvm;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External;../src/ASF/thirdparty/wireless/miwi/services/pds/inc;../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr;../src/ASF/sam0/drivers/rtc;../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro;../src/config"/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src/ASF/sam0/drivers/sercom/i2c;../src/ASF/sam0/utils;../src/ASF/sam0/utils/header_files;../src/ASF/sam0/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/common/utils;../src/ASF/sam0/utils/cmsis/samr21/include;../src/ASF/sam0/utils/cmsis/samr21/source;../src/ASF/sam0/drivers/sercom;../src/ASF/sam0/drivers/system;../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1;../src/ASF/sam0/drivers/system/clock;../src/ASF/sam0/drivers/system/interrupt;../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21;../src/ASF/sam0/drivers/system/pinmux;../src/ASF/sam0/drivers/system/power;../src/ASF/sam0/drivers/system/power/power_sam_d_r_h;../src/ASF/sam0/drivers/system/reset;../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h;../src/ASF/thirdparty/wireless/services/edbg_eui;../src/ASF/common2/services/gfx_mono;../src/ASF/common2/components/display/ssd1306;../src/ASF/sam0/drivers/port;../src/ASF/sam0/drivers/sercom/spi;../src/ASF/common2/services/delay;../src/ASF/common2/services/delay/sam0;../src/ASF/sam0/boards;../src/ASF/sam0/boards/samr21_xplained_pro;../src/ASF/common/boards;../src/ASF/thirdparty/wireless/miwi/services/lcd;../src;../src/ASF/thirdparty/wireless/addons/sio2host/uart;../src/ASF/sam0/utils/stdio/stdio_serial;../src/ASF/common/services/serial;../src/ASF/sam0/drivers/sercom/usart;../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star;../src/ASF/thirdparty/wireless/miwi/include;../src/ASF/thirdparty/wireless/miwi/source/mimac;../src/ASF/thirdparty/wireless/miwi/source/mimac/phy;../src/ASF/thirdparty/wireless/miwi/source/sys;../src/ASF/thirdparty/wireless/services/trx_access;../src/ASF/sam0/drivers/extint;../src/ASF/sam0/drivers/tc;../src/ASF/thirdparty/wireless/services/common_hw_timer;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0;../src/ASF/thirdparty/wireless/services/sal/inc;../src/ASF/thirdparty/wireless/services/nvm;../src/ASF/sam0/drivers/nvm;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External;../src/ASF/thirdparty/wireless/miwi/services/pds/inc;../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr;../src/ASF/sam0/drivers/rtc;../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro;../src/config"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+        <appendMe value="-DARM_MATH_CM0PLUS=true -DBOARD=SAMR21_XPLAINED_PRO -DENABLE_NETWORK_FREEZER -DEXTINT_CALLBACK_MODE=true -DGFX_MONO_UG_2832HSWEG04=1 -DI2C_MASTER_CALLBACK_MODE=false -DPDS_ENABLE_WEAR_LEVELING -DPHY_AT86RF233 -DPROTOCOL_STAR -DRTC_COUNT_ASYNC=true -DSAL_TYPE=AT86RF2xx -DSPI_CALLBACK_MODE=false -DSYSTICK_MODE -DTC_ASYNC=true -DUSART_CALLBACK_MODE=true -D__SAMR21G18A__"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/ASF/sam0/drivers/sercom/i2c;../src/ASF/sam0/utils;../src/ASF/sam0/utils/header_files;../src/ASF/sam0/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/common/utils;../src/ASF/sam0/utils/cmsis/samr21/include;../src/ASF/sam0/utils/cmsis/samr21/source;../src/ASF/sam0/drivers/sercom;../src/ASF/sam0/drivers/system;../src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1;../src/ASF/sam0/drivers/system/clock;../src/ASF/sam0/drivers/system/interrupt;../src/ASF/sam0/drivers/system/interrupt/system_interrupt_samr21;../src/ASF/sam0/drivers/system/pinmux;../src/ASF/sam0/drivers/system/power;../src/ASF/sam0/drivers/system/power/power_sam_d_r_h;../src/ASF/sam0/drivers/system/reset;../src/ASF/sam0/drivers/system/reset/reset_sam_d_r_h;../src/ASF/thirdparty/wireless/services/edbg_eui;../src/ASF/common2/services/gfx_mono;../src/ASF/common2/components/display/ssd1306;../src/ASF/sam0/drivers/port;../src/ASF/sam0/drivers/sercom/spi;../src/ASF/common2/services/delay;../src/ASF/common2/services/delay/sam0;../src/ASF/sam0/boards;../src/ASF/sam0/boards/samr21_xplained_pro;../src/ASF/common/boards;../src/ASF/thirdparty/wireless/miwi/services/lcd;../src;../src/ASF/thirdparty/wireless/addons/sio2host/uart;../src/ASF/sam0/utils/stdio/stdio_serial;../src/ASF/common/services/serial;../src/ASF/sam0/drivers/sercom/usart;../src/ASF/thirdparty/wireless/miwi/source/miwi_p2p_star;../src/ASF/thirdparty/wireless/miwi/include;../src/ASF/thirdparty/wireless/miwi/source/mimac;../src/ASF/thirdparty/wireless/miwi/source/mimac/phy;../src/ASF/thirdparty/wireless/miwi/source/sys;../src/ASF/thirdparty/wireless/services/trx_access;../src/ASF/sam0/drivers/extint;../src/ASF/sam0/drivers/tc;../src/ASF/thirdparty/wireless/services/common_hw_timer;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0;../src/ASF/thirdparty/wireless/services/sal/inc;../src/ASF/thirdparty/wireless/services/nvm;../src/ASF/sam0/drivers/nvm;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/wl;../src/ASF/thirdparty/wireless/miwi/services/pds/inc/nv/External;../src/ASF/thirdparty/wireless/miwi/services/pds/inc;../src/ASF/thirdparty/wireless/miwi/services/sleep_mgr;../src/ASF/sam0/drivers/rtc;../src/ASF/thirdparty/wireless/miwi/apps/simple_example_star/samr21_xplained_pro;../src/config"/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros"
+                  value="DEBUG;PROTOCOL_STAR;GFX_MONO_UG_2832HSWEG04=1;ARM_MATH_CM0PLUS=true;RTC_COUNT_ASYNC=true;__SAMR21G18A__;PDS_ENABLE_WEAR_LEVELING;SYSTICK_MODE;I2C_MASTER_CALLBACK_MODE=false;SAL_TYPE=AT86RF2xx;TC_ASYNC=true;BOARD=SAMR21_XPLAINED_PRO;EXTINT_CALLBACK_MODE=true;PHY_AT86RF233;USART_CALLBACK_MODE=true;SPI_CALLBACK_MODE=false;ENABLE_NETWORK_FREEZER"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+        <appendMe value="-pipe -fno-strict-aliasing -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror-implicit-function-declaration -Wpointer-arith -std=gnu99 -ffunction-sections -fdata-sections -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return  -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Wlong-long -Wunreachable-code -Wcast-align --param max-inline-insns-single=500 -fdata-sections -g3"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="true"/>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-include" value=""/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories"
+                  value="../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/thirdparty/wireless/services/common_hw_timer/sam0/lib"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries"
+                  value="libsam0_lib_hw_timer;libarm_cortexM0l_math;libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="true"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-Wl,--entry=Reset_Handler -Wl,--cref -mthumb -T../src/ASF/thirdparty/wireless/miwi/services/pds/src/wl/linkerscripts/samr21/gcc/samr21g18a_flash.ld"/>
+      </ARM-LD>
+    </conf>
+  </confs>
+</configurationDescriptor>
