@@ -1,9 +1,9 @@
-# MiWi Gateway with HMI demo Set up
+# Example code for importing ASF Project to MPLABX
 <img src="images/IoT-Made-Easy-Logo.png" width=100>
 
 > "Wireless Made Easy!"
 
-Devices:  **ATSAMR30|ATSAMA5D27**
+Devices:  **ATSAMR21**
 
 <p align="left">
 <a href="https://www.microchip.com" target="_blank">
